@@ -1,0 +1,78 @@
+Getting started with Github
+Submission Procedure
+Read the following steps and guidelines properly for proper understanding of the basics of Github. It will help further while making project submission for Code Innovation Series.
+
+Step 1
+Fork this repository
+Step 2
+Create a New Folder within the forked repository, with the 'folder name' being your 'Your Name'
+Contents of the folder
+Add a readme.md file to the folder, stating your Name and your skillset.
+
+
+
+Basic of  GitHub
+
+Submission Procedure for Code Innovation Series on GitHub
+Create a GitHub Account:
+
+If you don't have a GitHub account, create one at GitHub.
+Fork the Repository:
+
+Visit the main repository of the Code Innovation Series on GitHub.
+Click on the "Fork" button in the upper right corner to create your copy of the repository.
+Clone the Repository:
+
+Open your forked repository on GitHub.
+Click on the "Code" button and copy the URL.
+Open a terminal or command prompt on your local machine.
+Run the following command to clone the repository:
+bash
+Copy code
+git clone <paste-your-URL-here>
+Create a Branch:
+
+Change to the repository directory:
+bash
+Copy code
+cd repository-name
+Create a new branch for your project:
+bash
+Copy code
+git checkout -b your-branch-name
+Work on Your Project:
+
+Make the necessary changes and additions to your project.
+Ensure your code is well-documented and follows best practices.
+Commit Changes:
+
+Add your changes to the staging area:
+bash
+Copy code
+git add .
+Commit the changes:
+bash
+Copy code
+git commit -m "Your meaningful commit message here"
+Push Changes:
+
+Push your changes to your GitHub repository:
+bash
+Copy code
+git push origin your-branch-name
+Create a Pull Request:
+
+Go to your GitHub repository and switch to the branch you just pushed.
+Click on the "New Pull Request" button.
+Provide a descriptive title and comment for your pull request.
+Submit the pull request.
+Wait for Review:
+
+The project maintainers will review your submission and provide feedback.
+Make any necessary changes based on the feedback.
+Merge Pull Request:
+
+Once your pull request is approved, it will be merged into the main repository.
+Congratulations!
+
+Your project submission for the Code Innovation Series is complete.
